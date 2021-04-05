@@ -1,0 +1,23 @@
+Cấu trúc câu lệnh 4 tham số:
+<Program.exe> command <InputFilePath> <OutputFilePath>
+• Program.exe: the name of executable file
+• InputFilePath: the path name of the input file
+• OutputFilePath: the path name of the output file
+
+List commands:
+-rgb2gray: Convert a color image into a grayscale image.
+-rgb2hsv: Convert an image from RGB color model into HSV color model.
+-drawhist: Draw histogram of a color or grayscale image.
+-equalhist: Equalize histogram of a color or grayscale image.
+
+Cấu trúc câu lệnh 5 tham số:
+<Program.exe> command <InputFilePath> <OutputFilePath> <value>
+• Program.exe: the name of executable file
+• InputFilePath: the path name of the input file
+• OutputFilePath: the path name of the output file
+value: the brightness intensity (int) / the contrast coefficient (float).
+
+List commands:
+-bright: Change the brightness of a color or grayscale image.
+-contrast: Change the contrast of a color or grayscale image.
+
